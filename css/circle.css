@@ -1,0 +1,144 @@
+.circle-image{
+
+	height:200px;
+    width:200px;
+    overflow:hidden;
+    border-radius:50%;
+
+    background-image:url("http://placekitten.com/g/200/400");
+    display:block;
+    background-position-y:25% 
+}
+
+/* STRUCTURE */
+
+#pagewrap {
+	padding: 5px;
+	width: 960px;
+	margin: 0 auto;
+
+}
+
+#pagewrap img{
+	margin:0 auto;
+}	
+
+#content-left {
+	width: 290px;
+	float: left;
+	padding: 5px 15px;
+	display:block;
+}
+
+#content-middle {
+	width: 290px; /* Account for margins + border values */
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+	display:block;
+}
+
+#content-right {
+	width: 290px;
+	padding: 5px 15px;
+	float: left;
+	display:block;
+}
+#footer {
+	clear: both;
+	padding: 0 15px;
+}
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+	
+	#pagewrap {
+		width: 100%;
+	}
+	#content-left {
+		width: 41%;
+		padding: 1% 4%;
+		display:block;
+	}
+	#content-middle {
+		width: 41%;
+		padding: 1% 4%;
+		margin: 0px 0px 5px 5px;
+		float: right;
+		display:block;
+	}
+	
+	#content-right {
+		clear: both;
+		margin:0 150px 0 150px;
+		width: auto;
+		float: none;
+		display:inline-block;
+	}
+
+	#header, #footer {
+		padding: 1% 4%;
+	}
+}
+
+/* for 700px or less */
+@media screen and (max-width: 600px) {
+
+	#content-left {
+		width: auto;
+		float: none;
+		display:block;
+	}
+	
+	#content-middle {
+		width: auto;
+		float: none;
+		margin-left: 0px;
+		display:block;
+	}
+	
+	#content-right {
+		width: auto;
+		float: none;
+		margin:0 auto;
+		display:block;
+	}
+
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+
+#content-left {
+		width: auto;
+		float: none;
+		display:block;
+	}
+
+
+	
+	#content-middle {
+		width: auto;
+		float: none;
+		margin-left: 0px;
+		display:block;
+	}
+	
+	#content-right {
+		width: auto;
+		float: none;
+		display:block;
+	}
+
+}
+
+#header, #content, #middle, #sidebar {
+	margin-bottom: 5px;
+}
+
+#pagewrap, #header, #content, #middle, #sidebar, #footer {
+
+}
