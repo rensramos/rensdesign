@@ -1,0 +1,51 @@
+.item{
+    background: #333;    
+    text-align: center;
+ 
+}
+.container{
+    margin:0;
+    padding:0;
+    min-width: 100%;
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+
+.container{
+    margin:0;
+    padding:0;
+    min-width: 100%;
+}
+
+
+/*#content-left {
+		width: auto;
+		float: none;
+		display:block;
+	}
+
+
+	
+	#content-middle {
+		width: auto;
+		float: none;
+		margin-left: 0px;
+		display:block;
+	}
+	
+	#content-right {
+		width: auto;
+		float: none;
+		display:block;
+	}
+
+}
+
+#header, #content, #middle, #sidebar {
+	margin-bottom: 5px;
+}
+
+#pagewrap, #header, #content, #middle, #sidebar, #footer {
+*/
+}
