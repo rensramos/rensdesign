@@ -1,10 +1,16 @@
-.circle-image{
+/*desktop/laptop screen structure*/
+.image-container{
+	width:100%;
+	height: auto;
+	margin-bottom: 30px;
 
+}
+
+.circle-image{
 	height:200px;
     width:200px;
     overflow:hidden;
     border-radius:50%;
-
     background-image:url("http://placekitten.com/g/200/400");
     display:block;
     background-position-y:25% 
